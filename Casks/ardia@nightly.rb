@@ -2,13 +2,13 @@ cask "ardia@nightly" do
   version "0.2.46-nightly.3"
   sha256 "46f4329601faaaa34bc0e157028fe99f1afaa53eba16929fd0e77a7660f01b05"
 
-  url "https://github.com/mantrakp04/ardia/releases/download/v#{version}/Ardia-#{version}.dmg"
+  url "https://github.com/ardia-browser/ardia/releases/download/v#{version}/Ardia-#{version}.dmg"
   name "Ardia Nightly"
   desc "Web browser with Arc's sidebar and Dia's polish"
   homepage "https://ardia.dev/nightly"
 
   livecheck do
-    url "https://github.com/mantrakp04/ardia.git"
+    url "https://github.com/ardia-browser/ardia.git"
     regex(/^v?(\d+(?:\.\d+)+-nightly\.\d+)$/i)
   end
 
