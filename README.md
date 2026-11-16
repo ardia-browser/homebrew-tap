@@ -19,4 +19,5 @@ the two-step form, run `brew trust ardia-browser/tap` before `brew install ardia
 The nightly, with every fix the day it's made: `brew install ardia-browser/tap/ardia@nightly`.
 
 Ardia updates itself with Sparkle, so `brew upgrade` leaves it alone. Apple Silicon, macOS 14 Sonoma or later.
-Ardia's release script updates these casks on every release.
+Ardia's release script updates the `ardia` cask on every stable release. The nightly cask needs no updates: it
+installs `Ardia-Nightly.dmg` from the rolling `nightly` release, which every nightly replaces.
