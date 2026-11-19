@@ -1,6 +1,6 @@
 cask "ardia@nightly" do
-  version "0.2.47-nightly.6"
-  sha256 "9f741accac48bb7d5ac72bccca3a87790545f8b145c23a947248250911341e61"
+  version "0.2.47-nightly.7"
+  sha256 "c918197bbbdbeace35305231ae3f87b347ebceac0c822f2af0402b96194aa686"
 
   url "https://github.com/ardia-browser/ardia/releases/download/v#{version}/Ardia-#{version}.dmg"
   name "Ardia Nightly"
